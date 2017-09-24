@@ -1822,7 +1822,7 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #18bfef !important;
+			color: #5eac24 !important;
 		}
 
 	strong, b {
@@ -4212,7 +4212,7 @@
 
 			#copyright a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #5eac24 !important;
 			}
 
 		#copyright strong, #copyright b {
@@ -4480,7 +4480,22 @@
 		}
 
 	}
-.headlinks { 
-	margin-top: 50px;
-	margin-left: 50px;
-}
+	.headlinks {
+		padding-bottom: 10px;
+		min-height: 20px;
+		margin-top: 20.5px;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-weight: 900;
+		font-size: 1.8em;
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
+	 }
+
+	 .headlinks li {
+		display:inline;
+	 }
+
+	 .headlinks a {
+		margin-left:40px;
+	
+	 }
