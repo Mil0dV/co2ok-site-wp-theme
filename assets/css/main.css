@@ -4019,7 +4019,7 @@
 				padding: 0;
 			}
 
-				#footer > section.split > section {
+				#footer > section.splƒit > section {
 					padding: 3rem 4rem 1rem 4rem ;
 					border-top: solid 2px #e2e2e2;
 				}
@@ -4480,3 +4480,7 @@
 		}
 
 	}
+.headlinks { 
+	margin-top: 50px;
+	margin-left: 50px;
+}
