@@ -83,3 +83,23 @@
 			display: none;
 		}
 	}
+	.headlinks {
+		margin-top: 2%;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-weight: 900;
+		font-size: 1.8em;
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
+		text-decoration: none;
+	 }
+
+	 .headlinks li {
+		display:inline;
+		text-decoration: none;
+	 }
+
+	 .headlinks a {
+		margin-left:2px;
+		text-decoration: none;
+
+	 }
