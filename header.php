@@ -19,12 +19,9 @@
 		<div id="wrapper" class="fade-in">
 			<!-- TODO: Register navigation through WordPress -->
 			<div class="headlinks" id="myheadlinks">
-				<ul>
-					<a href="#">General info 1</a>
-					<a href="#">General info 2</a>
-					<a href="#">General info 3</a>
-				</ul> 
+			<?php wp_nav_menu();?>
 			</div>
+
 			<header id="header">
 				<a href="<?php echo home_url(); ?>" class="logo"><?php bloginfo('name'); ?></a>
 			</header>
