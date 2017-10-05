@@ -17,11 +17,9 @@
 	</head>
 	<body class="<?php body_class(); ?> is-loading">
 		<div id="wrapper" class="fade-in">
-			<!-- TODO: Register navigation through WordPress -->
 			<div class="headlinks" id="myheadlinks">
-			<?php wp_nav_menu();?>
+				<?php wp_nav_menu();?>
 			</div>
-
-			<header id="header">
-				<a href="<?php echo home_url(); ?>" class="logo"><?php bloginfo('name'); ?></a>
-			</header>
+			<div class="headlinks" id="nav">
+				<?php wp_nav_menu();?>
+			</div>
