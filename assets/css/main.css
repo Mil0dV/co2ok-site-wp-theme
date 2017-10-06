@@ -3028,8 +3028,8 @@
 			height: 100%;
 			background-color: #ffffff;
 			background-image: url("../../images/CO2ok_cover.svg");
-			background-size: auto,														auto,																	100% auto;
-			background-position: top center,								top center,														top center;
+			background-size: contain,														contain,																	contain;
+			background-position: center,							 center,													 center;
 			background-repeat: no-repeat,								no-repeat,													no-repeat;
 			background-attachment: scroll,								scroll,														scroll;
 			z-index: -1;
@@ -3072,7 +3072,7 @@
 		@media screen and (orientation: portrait) {
 
 			#wrapper > .bg {
-				background-size: auto,								auto,														auto 175%;
+				background-size: 100%,								100%,														100%;
 			}
 
 		}
@@ -3453,7 +3453,7 @@
 		}
 
 		#nav a {
-			color: #ffffff;
+			color: #000000;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
 
@@ -4296,7 +4296,7 @@
 		top: 0.75rem;
 		right: 0.75rem;
 		border: 0;
-		color: #ffffff;
+		color: #000000;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 0.9rem;
 		font-weight: 900;
