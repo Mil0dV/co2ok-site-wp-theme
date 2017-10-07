@@ -8,9 +8,9 @@
 			the_content();
 			endwhile;
 		?>
-		<ul class="actions">
+		<!-- <ul class="actions">
 			<li><a href="#" class="button big">Full Story</a></li>
-		</ul>
+		</ul> -->
 	</article>
 </div>
 <?php get_footer(); ?>
