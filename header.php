@@ -17,9 +17,6 @@
 	</head>
 	<body class="<?php body_class(); ?> is-loading">
 		<div id="wrapper" class="fade-in">
-			<div class="headlinks" id="myheadlinks">
-				<?php wp_nav_menu();?>
-			</div>
 			<div class="headlinks" id="nav">
 				<?php wp_nav_menu();?>
 			</div>
