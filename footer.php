@@ -1,4 +1,6 @@
 					<footer id="footer">
+
+						<!--
 						<section>
 							<form method="post" action="#">
 								<div class="field">
@@ -18,7 +20,9 @@
 								</ul>
 							</form>
 						</section>
-						<section class="split contact">
+
+						-->
+						<section class="contact">
 							<section>
 								<h3>Phone</h3>
 								<p><a href="#">+31-(0)6-39765259</a></p>

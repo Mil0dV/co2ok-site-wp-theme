@@ -18,6 +18,7 @@
 
 <body class="<?php body_class(); ?> is-loading">
 
+
 <div id="wrapper" class="fade-in">
 
 	<style>
@@ -42,10 +43,6 @@
 			margin-bottom: 120px;
 		}
 
-		#container
-		{
-
-		}
 		.itemContainer
 		{
 			width: 34%;
@@ -68,9 +65,31 @@
 			margin-right: auto!important;
 		}
 
+		#nav li.current-menu-item a {
+			color:#5eac24 !important;
+		}
+
+		a {
+			color:#5eac24 !important;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
+
+		#nav li a {
+			color:black!important;
+		}
+
+		ul li
+		{
+			list-style: none!important;
+		}
+
 	</style>
 
 
 	<div class="headlinks" id="nav">
+		<img src="<?php echo get_template_directory_uri(); ?>/images/logo.svg" />" width="32" />
 		<?php wp_nav_menu();?>
 	</div>
