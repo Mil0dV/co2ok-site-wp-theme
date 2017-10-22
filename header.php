@@ -22,9 +22,10 @@
 <div id="wrapper" class="fade-in">
 
 	<style>
+
 		#wrapper > .bg
 		{
-			background-position:top!important;
+			background-position: top!important;
 			background-size: contain;
 			top: 115px;
 		}
@@ -36,21 +37,56 @@
 		#main
 		{
 			background-color: transparent!important;
+			width:60%!important;
 		}
 		#main>.post {
-			background-color: white!important;
-			padding: 0px 4rem 0px 4rem!important;
+			background-color: #fffffff5!important;
+			padding:15px 2rem 0px 2rem!important;
 			margin-bottom: 120px;
+
+		}
+
+		@media screen and (max-width: 620px) {
+			#main
+			{
+
+				width:100%!important;
+			}
+			#main>.post
+			{
+
+				padding:15px 2rem 0px 2rem!important;
+
+
+			}
 		}
 
 		.itemContainer
 		{
-			width: 34%;
+			width: 33%;
 			display: inline-block;
 			align-items: center;
 			background-color: white;
 			border-radius: 15px;
 			border: 1px solid green;
+		}
+
+		.itemContainer:first-child
+		{
+			margin-right: 33%;
+		}
+
+		@media screen and (max-width: 620px) {
+			.itemContainer
+			{
+				width: 100%;
+			}
+
+			.itemContainer:first-child
+			{
+				margin-right: 0%;
+			}
+
 		}
 
 		.itemContainer p
@@ -86,10 +122,28 @@
 			list-style: none!important;
 		}
 
+		.background_fixed
+		{
+			/* background-color: #fff; */
+			background-image: url(http://www.co2ok.eco/wp-content/themes/co2ok-site-wp-theme/images/CO2ok_cover.svg);
+			background-size: contain, contain, contain;
+			background-position: center, center, center;
+			background-repeat: no-repeat, no-repeat, no-repeat;
+			/* background-attachment: scroll, scroll, scroll; */
+			z-index: -1;
+			top: 0px;
+			position: fixed;
+			min-height: 1080px;
+			width: 100%
+		}
+
 	</style>
 
 
 	<div class="headlinks" id="nav">
-		<img src="<?php echo get_template_directory_uri(); ?>/images/logo.svg" />" width="32" />
+		<img src="<?php echo get_template_directory_uri(); ?>/images/logo.svg" width="120" />
 		<?php wp_nav_menu();?>
+	</div>
+
+	<div class="background_fixed">
 	</div>

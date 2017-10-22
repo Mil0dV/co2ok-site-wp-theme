@@ -4,9 +4,9 @@
 
 <div id="intro">
 
-	<div id="container">
+	<div id="container" style="width:80%">
 
-		<div class="itemContainer" style="margin-right: 30%;">
+		<div class="itemContainer" style="margin-right: 33%;">
 			<img class="alignleft image fit wp-image-51" src="http://www.co2ok.eco/wp-content/uploads/2017/10/CO2ok-knop.png" alt="" width="200" height="120" />
 			<span style="font-weight: 400;color:black;">Verminder je klimaatimpact door de checkbox aan te vinken terwijl je shopt bij onze partners.</span>
 		</div>
