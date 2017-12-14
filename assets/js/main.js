@@ -85,12 +85,12 @@
 					off();
 
 			// Enable everywhere else.
-				else {
-
-					skel.on('!large -large', on);
-					skel.on('+large', off);
-
-				}
+				// else {
+				//
+				// 	skel.on('!large -large', on);
+				// 	skel.on('+large', off);
+				//
+				// }
 
 		});
 
