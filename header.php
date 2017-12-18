@@ -37,11 +37,11 @@
 		#main
 		{
 			background-color: transparent!important;
-			width:60%!important;
+			width:80%!important;
 		}
 		#main>.post {
 			background-color: #fffffff5!important;
-			padding:15px 2rem 0px 2rem!important;
+			/*padding:15px 2rem 0px 2rem!important;*/
 			margin-bottom: 120px;
 
 		}
@@ -55,7 +55,7 @@
 			#main>.post
 			{
 
-				padding:15px 2rem 0px 2rem!important;
+				/*padding:15px 2rem 0px 2rem!important;*/
 
 
 			}
@@ -101,11 +101,15 @@
 			margin-right: auto!important;
 		}
 
-		#nav li.current-menu-item a {
+		#nav li.current_page_item a {
 			color:#5eac24 !important;
 		}
 
 		a {
+			/*color:#5eac24 !important;*/
+		}
+
+		.menu .current_page_item a{
 			color:#5eac24 !important;
 		}
 
