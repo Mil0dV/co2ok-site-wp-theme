@@ -43,7 +43,7 @@
 						</section>
 					</footer>
 					<div id="copyright">
-						<ul><li>&copy; <?php bloginfo('name'); ?></li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+						<ul><li>&copy; <?php bloginfo('name'); ?></li></ul>
 					</div>
 			</div>
 			<?php wp_footer(); ?>
