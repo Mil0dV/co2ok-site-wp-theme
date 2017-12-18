@@ -9,7 +9,7 @@
 	skel.breakpoints({
 		xlarge:	'(max-width: 1680px)',
 		large:	'(max-width: 1280px)',
-		medium:	'(max-width: 980px)',
+		medium:	'(max-width: 960px)',
 		small:	'(max-width: 736px)',
 		xsmall:	'(max-width: 480px)',
 		xxsmall: '(max-width: 360px)'
@@ -78,11 +78,11 @@
 			 */
 
 			// Disable parallax on ..
-				if (skel.vars.browser == 'ie'		// IE
-				||	skel.vars.browser == 'edge'		// Edge
-				||	window.devicePixelRatio > 1		// Retina/HiDPI (= poor performance)
-				||	skel.vars.mobile)				// Mobile devices
-					off();
+				// if (skel.vars.browser == 'ie'		// IE
+				// ||	skel.vars.browser == 'edge'		// Edge
+				// ||	window.devicePixelRatio > 1		// Retina/HiDPI (= poor performance)
+				// ||	skel.vars.mobile)				// Mobile devices
+				// 	off();
 
 			// Enable everywhere else.
 				// else {
