@@ -1623,7 +1623,7 @@
 	}
 
 	body {
-		background-color: #1e252d;
+		background-color: #fff;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1700,7 +1700,7 @@
 
 	p {
 		text-align: justify;
-		margin: 0 0 2rem 0;
+		/*margin: 0 0 2rem 0;*/
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -3551,7 +3551,7 @@
 			margin-bottom: 0;
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 960px) {
 
 			#nav {
 				display: none;
@@ -4331,7 +4331,7 @@
 				background-color: #ffffff;
 			}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 960px) {
 
 			#navPanelToggle {
 				display: block;
